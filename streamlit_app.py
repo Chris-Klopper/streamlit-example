@@ -16,7 +16,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 url = 'https://drive.google.com/file/d/1vtuw6c9tW_paxJ1W2zjzq_hb7IvNzgBB/view?usp=sharing'
-df = pd.read_csv(url,delimiter='|')
+df = pd.read_csv(url.split('/')[-2],delimiter='|')
 
 
 with st.echo(code_location='below'):
