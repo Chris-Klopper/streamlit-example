@@ -15,8 +15,8 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-#df = pd.read_csv ('/content/drive/MyDrive/MIT808/Cases_output.txt', delimiter='|')
-#st.write(df)
+url = 'https://drive.google.com/file/d/1vtuw6c9tW_paxJ1W2zjzq_hb7IvNzgBB/view?usp=sharing'
+df = pd.read_csv(url,delimiter='|')
 
 
 with st.echo(code_location='below'):
