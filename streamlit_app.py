@@ -16,7 +16,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 df = pd.read_csv (r'/content/drive/MyDrive/MIT808/Cases_output.txt', delimiter='|')
-print (df)
+st.write(df)
 
 
 with st.echo(code_location='below'):
