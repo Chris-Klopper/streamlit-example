@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# Welcome to Streamlit!
+# Welcome to Streamlit! Yaay
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
@@ -23,7 +23,7 @@ with st.echo(code_location='below'):
     Point = namedtuple('Point', 'x y')
     data = []
 
-    points_per_turn = total_points / num_turns
+    points_per_turn = total_points / num_turns / 2
 
     for curr_point_num in range(total_points):
         curr_turn, i = divmod(curr_point_num, points_per_turn)
