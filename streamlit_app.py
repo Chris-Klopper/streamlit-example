@@ -15,7 +15,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-df = pd.read_csv (r'/content/drive/MyDrive/MIT808/Cases_output.txt', delimiter='|')
+df = pd.read_csv ('/content/drive/MyDrive/MIT808/Cases_output.txt', delimiter='|')
 st.write(df)
 
 
